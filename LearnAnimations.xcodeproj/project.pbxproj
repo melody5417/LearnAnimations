@@ -7,25 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F779BA61EE6DB0A0018BA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F779BA51EE6DB0A0018BA5D /* main.m */; };
 		4F779BA91EE6DB0A0018BA5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F779BA81EE6DB0A0018BA5D /* AppDelegate.m */; };
-		4F779BAC1EE6DB0A0018BA5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F779BAB1EE6DB0A0018BA5D /* ViewController.m */; };
-		4F779BAF1EE6DB0A0018BA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F779BAD1EE6DB0A0018BA5D /* Main.storyboard */; };
-		4F779BB11EE6DB0A0018BA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F779BB01EE6DB0A0018BA5D /* Assets.xcassets */; };
-		4F779BB41EE6DB0A0018BA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F779BB21EE6DB0A0018BA5D /* LaunchScreen.storyboard */; };
+		4F779BC51EE6DD040018BA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F779BC21EE6DD040018BA5D /* Assets.xcassets */; };
+		4F779BC61EE6DD040018BA5D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F779BC31EE6DD040018BA5D /* Info.plist */; };
+		4F779BC71EE6DD040018BA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F779BC41EE6DD040018BA5D /* main.m */; };
+		4F779BCE1EE6DFDD0018BA5D /* AnimationsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F779BCD1EE6DFDD0018BA5D /* AnimationsListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F779BA11EE6DB0A0018BA5D /* LearnAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F779BA51EE6DB0A0018BA5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F779BA71EE6DB0A0018BA5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F779BA81EE6DB0A0018BA5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F779BAA1EE6DB0A0018BA5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F779BAB1EE6DB0A0018BA5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4F779BAE1EE6DB0A0018BA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F779BB01EE6DB0A0018BA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F779BB31EE6DB0A0018BA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4F779BB51EE6DB0A0018BA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F779BC21EE6DD040018BA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SupportingFiles/Assets.xcassets; sourceTree = "<group>"; };
+		4F779BC31EE6DD040018BA5D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		4F779BC41EE6DD040018BA5D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		4F779BCC1EE6DFDD0018BA5D /* AnimationsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsListController.h; sourceTree = "<group>"; };
+		4F779BCD1EE6DFDD0018BA5D /* AnimationsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationsListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +57,7 @@
 			children = (
 				4F779BA71EE6DB0A0018BA5D /* AppDelegate.h */,
 				4F779BA81EE6DB0A0018BA5D /* AppDelegate.m */,
-				4F779BAA1EE6DB0A0018BA5D /* ViewController.h */,
-				4F779BAB1EE6DB0A0018BA5D /* ViewController.m */,
-				4F779BAD1EE6DB0A0018BA5D /* Main.storyboard */,
-				4F779BB01EE6DB0A0018BA5D /* Assets.xcassets */,
-				4F779BB21EE6DB0A0018BA5D /* LaunchScreen.storyboard */,
-				4F779BB51EE6DB0A0018BA5D /* Info.plist */,
+				4F779BC81EE6DEC20018BA5D /* RootController */,
 				4F779BA41EE6DB0A0018BA5D /* Supporting Files */,
 			);
 			path = LearnAnimations;
@@ -74,9 +66,20 @@
 		4F779BA41EE6DB0A0018BA5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F779BA51EE6DB0A0018BA5D /* main.m */,
+				4F779BC21EE6DD040018BA5D /* Assets.xcassets */,
+				4F779BC31EE6DD040018BA5D /* Info.plist */,
+				4F779BC41EE6DD040018BA5D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F779BC81EE6DEC20018BA5D /* RootController */ = {
+			isa = PBXGroup;
+			children = (
+				4F779BCC1EE6DFDD0018BA5D /* AnimationsListController.h */,
+				4F779BCD1EE6DFDD0018BA5D /* AnimationsListController.m */,
+			);
+			path = RootController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +113,7 @@
 				TargetAttributes = {
 					4F779BA01EE6DB0A0018BA5D = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = TYELATSY8G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,9 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F779BB41EE6DB0A0018BA5D /* LaunchScreen.storyboard in Resources */,
-				4F779BB11EE6DB0A0018BA5D /* Assets.xcassets in Resources */,
-				4F779BAF1EE6DB0A0018BA5D /* Main.storyboard in Resources */,
+				4F779BC61EE6DD040018BA5D /* Info.plist in Resources */,
+				4F779BC51EE6DD040018BA5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,32 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F779BAC1EE6DB0A0018BA5D /* ViewController.m in Sources */,
+				4F779BC71EE6DD040018BA5D /* main.m in Sources */,
 				4F779BA91EE6DB0A0018BA5D /* AppDelegate.m in Sources */,
-				4F779BA61EE6DB0A0018BA5D /* main.m in Sources */,
+				4F779BCE1EE6DFDD0018BA5D /* AnimationsListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4F779BAD1EE6DB0A0018BA5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F779BAE1EE6DB0A0018BA5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4F779BB21EE6DB0A0018BA5D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F779BB31EE6DB0A0018BA5D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4F779BB61EE6DB0A0018BA5D /* Debug */ = {
@@ -274,7 +258,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LearnAnimations/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = TYELATSY8G;
+				INFOPLIST_FILE = "$(SRCROOT)/LearnAnimations/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.melody5417.LearnAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,7 +271,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LearnAnimations/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = TYELATSY8G;
+				INFOPLIST_FILE = "$(SRCROOT)/LearnAnimations/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.melody5417.LearnAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,6 +299,7 @@
 				4F779BBA1EE6DB0A0018BA5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
