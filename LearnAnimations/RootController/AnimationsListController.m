@@ -8,7 +8,7 @@
 
 #import "AnimationsListController.h"
 
-@interface AnimationsListController ()
+@interface AnimationsListController () <UIGestureRecognizerDelegate, UINavigationControllerDelegate>
 
 @end
 
@@ -17,21 +17,56 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    [self rootViewControllerSetup];
+
+    [self configNotificationCenter];
+
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - RootViewController setup.
+
+- (void)rootViewControllerSetup {
+
+    // [IMPORTANT] Enable the Push transitioning.
+    self.navigationController.delegate = self;
+
+    // [IMPORTANT] Set the RootViewController's push delegate.
+    [self useInteractivePopGestureRecognizer];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)useInteractivePopGestureRecognizer {
+    self.navigationController.interactivePopGestureRecognizer.delegate = self;
 }
-*/
+
+#pragma mark - configNotificationCenter
+
+- (void)configNotificationCenter {
+    //TODO
+//    self.notificationCenter          = [DefaultNotificationCenter new];
+//    self.notificationCenter.delegate = self;
+//    [self.notificationCenter addNotificationName:noti_showHomePageTableView];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(handleReceivedNotification:)
+                                                 name:noti_showHomePageTableView
+                                               object:nil];
+}
+
+#pragma mark - Notification
+
+- (void)handleReceivedNotification:(NSNotification *)noti {
+
+}
+
+#pragma mark - UINavigationControllerDelegate
+
+//- (nullable id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+//                                            animationControllerForOperation:(UINavigationControllerOperation)operation
+//                                                         fromViewController:(UIViewController *)fromVC
+//                                                           toViewController:(UIViewController *)toVC {
+//
+//};
 
 @end

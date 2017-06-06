@@ -32,6 +32,9 @@
 
     } completion:^(BOOL finished) {
 
+        // TODO
+        [[NSNotificationCenter defaultCenter] postNotificationName:noti_showHomePageTableView
+                                                            object:nil];
 //        [DefaultNotificationCenter postEventToNotificationName:noti_showHomePageTableView object:nil];
         [iconImageView removeFromSuperview];
     }];

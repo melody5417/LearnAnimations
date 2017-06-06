@@ -66,11 +66,11 @@
 		4F779BA31EE6DB0A0018BA5D /* LearnAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				4FE990521EE6E3EE0097D441 /* UI-Component */,
-				4FE9904D1EE6E27B0097D441 /* General-Tools */,
 				4F779BA71EE6DB0A0018BA5D /* AppDelegate.h */,
 				4F779BA81EE6DB0A0018BA5D /* AppDelegate.m */,
 				4F779BC81EE6DEC20018BA5D /* RootController */,
+				4FE990521EE6E3EE0097D441 /* UI-Component */,
+				4FE9904D1EE6E27B0097D441 /* General-Tools */,
 				4F779BA41EE6DB0A0018BA5D /* Supporting Files */,
 			);
 			path = LearnAnimations;
