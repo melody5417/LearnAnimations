@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AnimationsListController.h"
+#import "AnimationsListViewNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     AnimationsListController *viewController = [[AnimationsListController alloc] init];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    AnimationsListViewNavigationController *navigationController = [[AnimationsListViewNavigationController alloc] initWithRootViewController:viewController];
 
     self.window.rootViewController = navigationController;
     self.window.backgroundColor    = [UIColor whiteColor];

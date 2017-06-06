@@ -12,6 +12,9 @@
 		4F779BC61EE6DD040018BA5D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F779BC31EE6DD040018BA5D /* Info.plist */; };
 		4F779BC71EE6DD040018BA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F779BC41EE6DD040018BA5D /* main.m */; };
 		4F779BCE1EE6DFDD0018BA5D /* AnimationsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F779BCD1EE6DFDD0018BA5D /* AnimationsListController.m */; };
+		4FE9904C1EE6E1F00097D441 /* AnimationsListViewNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9904B1EE6E1F00097D441 /* AnimationsListViewNavigationController.m */; };
+		4FE990511EE6E2C70097D441 /* AppleSystemService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE990501EE6E2C70097D441 /* AppleSystemService.m */; };
+		4FE990561EE6E41B0097D441 /* UIView+AnimationProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE990551EE6E41B0097D441 /* UIView+AnimationProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,13 @@
 		4F779BC41EE6DD040018BA5D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
 		4F779BCC1EE6DFDD0018BA5D /* AnimationsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsListController.h; sourceTree = "<group>"; };
 		4F779BCD1EE6DFDD0018BA5D /* AnimationsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationsListController.m; sourceTree = "<group>"; };
+		4FE9904A1EE6E1F00097D441 /* AnimationsListViewNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsListViewNavigationController.h; sourceTree = "<group>"; };
+		4FE9904B1EE6E1F00097D441 /* AnimationsListViewNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationsListViewNavigationController.m; sourceTree = "<group>"; };
+		4FE9904F1EE6E2C70097D441 /* AppleSystemService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleSystemService.h; sourceTree = "<group>"; };
+		4FE990501EE6E2C70097D441 /* AppleSystemService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleSystemService.m; sourceTree = "<group>"; };
+		4FE990541EE6E41B0097D441 /* UIView+AnimationProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationProperty.h"; sourceTree = "<group>"; };
+		4FE990551EE6E41B0097D441 /* UIView+AnimationProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationProperty.m"; sourceTree = "<group>"; };
+		4FE990591EE6E5580097D441 /* MacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,8 @@
 		4F779BA31EE6DB0A0018BA5D /* LearnAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				4FE990521EE6E3EE0097D441 /* UI-Component */,
+				4FE9904D1EE6E27B0097D441 /* General-Tools */,
 				4F779BA71EE6DB0A0018BA5D /* AppDelegate.h */,
 				4F779BA81EE6DB0A0018BA5D /* AppDelegate.m */,
 				4F779BC81EE6DEC20018BA5D /* RootController */,
@@ -69,6 +81,7 @@
 				4F779BC21EE6DD040018BA5D /* Assets.xcassets */,
 				4F779BC31EE6DD040018BA5D /* Info.plist */,
 				4F779BC41EE6DD040018BA5D /* main.m */,
+				4FE990591EE6E5580097D441 /* MacroDefinition.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -78,8 +91,44 @@
 			children = (
 				4F779BCC1EE6DFDD0018BA5D /* AnimationsListController.h */,
 				4F779BCD1EE6DFDD0018BA5D /* AnimationsListController.m */,
+				4FE9904A1EE6E1F00097D441 /* AnimationsListViewNavigationController.h */,
+				4FE9904B1EE6E1F00097D441 /* AnimationsListViewNavigationController.m */,
 			);
 			path = RootController;
+			sourceTree = "<group>";
+		};
+		4FE9904D1EE6E27B0097D441 /* General-Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4FE9904E1EE6E2B60097D441 /* AppleSystemService */,
+			);
+			path = "General-Tools";
+			sourceTree = "<group>";
+		};
+		4FE9904E1EE6E2B60097D441 /* AppleSystemService */ = {
+			isa = PBXGroup;
+			children = (
+				4FE9904F1EE6E2C70097D441 /* AppleSystemService.h */,
+				4FE990501EE6E2C70097D441 /* AppleSystemService.m */,
+			);
+			path = AppleSystemService;
+			sourceTree = "<group>";
+		};
+		4FE990521EE6E3EE0097D441 /* UI-Component */ = {
+			isa = PBXGroup;
+			children = (
+				4FE990531EE6E3EE0097D441 /* UIView+Category */,
+			);
+			path = "UI-Component";
+			sourceTree = "<group>";
+		};
+		4FE990531EE6E3EE0097D441 /* UIView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				4FE990541EE6E41B0097D441 /* UIView+AnimationProperty.h */,
+				4FE990551EE6E41B0097D441 /* UIView+AnimationProperty.m */,
+			);
+			path = "UIView+Category";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +203,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F779BC71EE6DD040018BA5D /* main.m in Sources */,
+				4FE990511EE6E2C70097D441 /* AppleSystemService.m in Sources */,
+				4FE9904C1EE6E1F00097D441 /* AnimationsListViewNavigationController.m in Sources */,
 				4F779BA91EE6DB0A0018BA5D /* AppDelegate.m in Sources */,
+				4FE990561EE6E41B0097D441 /* UIView+AnimationProperty.m in Sources */,
 				4F779BCE1EE6DFDD0018BA5D /* AnimationsListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
